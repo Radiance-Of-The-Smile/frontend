@@ -19,6 +19,7 @@ const App = () => {
   const handleRemoveImage = () => {
     setProcessedImage(null);
     setAnomalies([]);
+    setSelectedFile(null);
   }
 
   const handleUpload = async () => {
