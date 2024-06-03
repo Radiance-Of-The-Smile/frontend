@@ -2,6 +2,13 @@
 
 This ReactJS application is part of the "Radiance Of The Smile" project, which employs a complete deep learning approach for image analysis. It allows users to upload an image for analysis, preprocess it using a deep learning model, and view the processed image along with detected anomalies.
 
+## Screenshots
+<p align="center">
+  <img src="screenshots/1.png" alt="Start">
+  <img src="screenshots/2.png" alt="After Uploading Image">
+  <img src="screenshots/3.png" alt="After Getting Analysis">
+</p>
+
 ## Project Structure
 
 ```
@@ -23,8 +30,8 @@ my-react-app/
 
 To run this application locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
+1. Clone the repository: `git clone https://github.com/Radiance-Of-The-Smile/frontend.git`
+2. Navigate to the project directory: `cd frontend`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open your browser and visit `http://localhost:3000`
