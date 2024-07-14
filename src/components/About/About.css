@@ -1,0 +1,87 @@
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about h2, .about h3 {
+  color: #333;
+}
+
+.features-list, .team-list {
+  padding-left: 20px;
+}
+
+.features-list li, .team-list li {
+  margin-bottom: 10px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.user-card {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.user-card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.user-card a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.user-card a:hover {
+  text-decoration: underline;
+}
+
+.user-card a:active {
+  color: #333;
+}
+
+.user-card p {
+  font-size: 0.9rem;
+  margin: 0;
+  border-top: 1px solid rgb(224, 224, 224);
+  padding: 5px 3px;
+}
+
+.user-card p span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.supervisor-note {
+  font-style: italic;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.supervisor-note a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.supervisor-note a:hover {
+  text-decoration: underline;
+}
+
+.supervisor-note a:active {
+  color: #333;
+}
